@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <h3 style="text-align: center;">Job Application</h3>
+    <table border="1" style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <td>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <br />
+                <br />
+                <label for="emailI">EmailId:</label>
+                <input type="email" name="email"    id="emailId"   placeholder="Enter your emailI">  
+                <br /> 
+                <br />
+                <label for="phoneNumber">Phone No:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Enter your phoneNumber">
+                <br />
+                <br />
+                <label for="selectFile">Resume:</label>
+                <input type="file" name="selectFile" id="selectFile">
+                <br />
+                <br />
+                <label for="experience">Experience(In Year)</label>
+                <input type="number" name="experience" id="experience" min="0" max="25">
+                <br />
+                <br/>
+                <fieldset>
+                    <legend>Skills</legend>
+                    
+                    <input type="checkbox" name="html" id="checkHtml">
+                    <label for="checkHtml">HTML</label>
+                    <br />
+                    <input type="checkbox" name="css" id="checkCss">
+                    <label for="checkCss">CSS</label>
+                    <br />
+                    <input type="checkbox" name="js" id="checkJs">
+                    <label for="checkJs">JS<label>
+                    <br />
+
+                    </fieldset>
+                <br />
+                    <label for="highestQualification">Highest Qualification:</label>
+                <select name="forQualification" id="highestQualification"> 
+                    <option value="associateDegree">Associate Degree</option>
+                    <option value="masterDegree">Master Degree</option>
+                    <option value="other">Other</option>
+                </select>
+                <br />
+                <br />  
+                <fieldset>
+                    <legend>Availability</legend>
+                    <input type="radio" name="availability" id="fullTime"  value="fullTime" checked>
+                    <label for="fullTime">Full Time</label>
+                    <br />
+                    <input type="radio" name="availability" id="partTime"  value="partTime">
+                    <lable for="partTime">Part Time</lable>
+                </fieldset>
+                <br />
+                <br />
+                <label for="additionslComment">Additional Comment:</label>
+                <textarea name="additionslComment" id="additionslComment" cols="60" rows="2" placeholder="Add Some Comment Here.............."></textarea>
+                <br />
+                <br />
+                <input type="submit" value="Submit Application">
+
+             </form>
+        </td>
+    </tr>
+    
+    </table>
+</body>
+</html>

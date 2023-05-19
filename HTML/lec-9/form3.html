@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Complex Form</h2>
+    <table border="1" style="margin-left: auto; margin-right: auto; width: 900px; height: 200px;">
+    <tr>
+        <td>
+            <form>
+                <br />
+                <br />
+               <fieldset>
+                <legend>Personel Information</legend>
+                <lable for="name">Name:</lable>
+                <input type="text" name="name" id="name" value="" placeholder="enter your name">
+                <br />
+                <br />
+                <lable for="emailId">EmailId:</lable>
+                <input type="email" name="email" id="emailId" value="" placeholder="example@gmail.com">
+                <br />
+                <br />
+                <lable for="phoneNumber"> Phone No:</lable>
+                <input type="tel" name="phoneNumber" id="phoneNumber" value="" placeholder="Enter your phoneNumber">
+                <br />
+                <br />
+                <lable for="dateBirth">Date of Birth:</lable>
+                <input type="date" name="dateBirth" id="dateBirth" value="" placeholder="">
+                <br />
+                <br />
+                <lable>Gender:</lable>
+                <input type="radio" name="gender" id="male"  value="male" placeholder="">
+                <lable for="male">Male</lable>
+                
+                <input type="radio" name="gender" id="female"  value="female" placeholder="">
+                <lable for="female">Female</lable>
+               <input type="radio" name="gender" id="other"  value="other" placeholder="">
+                <lable for="other">Other</lable>
+                <br />
+                <br />
+                <label for="country">Select Country:</label>
+                <select name="Country" id="country">
+                        <option value="india" >India</option>
+                        <option value="unitedState">United State</option>
+                        <option value="japan">Japan</option>
+                        <option value="russia">Russia</option>
+                </select>
+                
+               </fieldset>
+               <br />
+                <br />
+                <fieldset>
+                    <legend>Address:</legend>
+                    <lable for="street">Street:</lable>
+                    <input type="text" name="street" id="street" value="" placeholder=" enter your local address">
+                    <br />
+                    <br />
+                    <lable for="city">City:</lable>
+                    <input type="text" name="city" id="city" value="" placeholder="enter your current city">
+                    <br />
+                    <br />
+                    <lable for="state">State:</lable>
+                    <input type="text" name="state" id="state" value="" placeholder="enter your state">
+                    <br />
+                    <br />
+                    <lable for="zipCode">ZipCode:</lable>
+                    <input type="text" name="zipCode" id="zipCode" value="" placeholder=" eg.x(x-xx-xx)">
+                    <br />
+                    <br />
+                </fieldset>
+                <br />
+                <br />
+                <fieldset >
+                    <legend>Other Information:</legend>
+                    
+                    <br />
+                    <label for="comments">Comments:</label>
+                        <textarea name="comments" id="comments" cols="60" rows="2" placeholder="Add your comments ......"></textarea>
+                        <br />
+                        <br />
+                        <input type="checkbox" name="terms" id="Aterms" value="" >
+                        <label for="Aterms">I agree to terms of conditions</label>
+
+
+                </fieldset>
+                <br />
+                <br />
+                <input type="submit" value="Submit">
+            </form>
+        </td>
+    </tr>
+    </table>
+</body>
+</html>
